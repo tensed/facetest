@@ -4,7 +4,7 @@ from django.http import HttpResponse
 import pyrebase
 
 config = {
-    'apiKey': "AIzaSyAEnPq4nHc_jxd4-j-x5AZR7gOUk6PKa8g",
+    'apiKey': "", //add api key
     'authDomain': "facetest-7038e.firebaseapp.com",
     'databaseURL': "https://facetest-7038e.firebaseio.com",
     'projectId': "facetest-7038e",
