@@ -13,14 +13,29 @@ header{
     margin-top:5px;
     font-size:px;
 }
-.nav li{
-    list-style:square;
-    display: inline-block;
+
+.nav{
+    list-style:none;
+}
+.nav ul li{
+    
+    /* display: inline-block;
     margin: 0;
-    padding: 40px;
+    padding: 40px; */
+    width:150px;
+    border:1px solid white;
+    height:40px;
+    float:left;
+    line-height: 50px;
+    text-align:center;
+    color:white;
+    font-size:18px;
     
 }
 
+.nav ul li:hover{
+    background-color:green;
+}
 .content{
     width:100%;
     height:500px;
