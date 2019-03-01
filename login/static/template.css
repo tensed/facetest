@@ -1,6 +1,6 @@
 body
 {
-    background-color:black;
+    background-color:whitesmoke;
     margin:0 auto;
     width:800px;
 
@@ -19,9 +19,8 @@ header{
 }
 .nav ul li{
     
-    /* display: inline-block;
     margin: 0;
-    padding: 40px; */
+    padding: 40px; 
     width:150px;
     border:1px solid white;
     height:40px;
