@@ -1,5 +1,5 @@
-{%extends "login/template.html"%}
-{%block content%}
+{% extends "login/template.html" %}
+{% block content %}
 <form action="/postsign/" method="POST">
         {% csrf_token%}
         Email :
@@ -9,4 +9,4 @@
         <input type="submit" name="submit" value="Sign In">
     </form>
    
-{%endblock content%}
+{% endblock content %}
