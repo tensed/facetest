@@ -1,5 +1,6 @@
+{% load static%}
 {% extends "login/template.html" %}
-{% block content %}
+{% block content%}
 <form action="/postsign/" method="POST">
         {% csrf_token%}
         Email :
